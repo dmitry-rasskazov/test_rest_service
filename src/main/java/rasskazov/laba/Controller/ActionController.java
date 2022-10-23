@@ -16,7 +16,7 @@ public class ActionController {
                 .builder()
                 .uid(request.getUid())
                 .operationUid(request.getOperationUid())
-                .systemTime(request.getSystemTime())
+                .systemTime("ERP")
                 .code("success")
                 .errorCode("")
                 .errorMessage("")
